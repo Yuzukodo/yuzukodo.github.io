@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Jura";
+  src: url("/assets/fonts/jura/Jura-Light.ttf");
+  font-weight: 400;
+}
+
+::selection {
+  background-color: #c68aff69;
+}
+
+html, body {
+    margin: 0vw;
+    padding: 0vw;
+    font-family: Jura, sans-serif;
+    font-size: 1vw;
+    text-align: center;
+}
+
+html {
+    height: 100%;
+    background-image: url("/assets/img/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body {
+    height: 100%;
+    color: #333333ff;
+    background: #00000010;
+    background-color: #00000040;
+}
